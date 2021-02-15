@@ -1,7 +1,12 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const generateMarkdown = require('./utils/generateMarkdown.js');
+const jest = require('jest');
+
+const Employee = require("./Lib/Employee.js");
+const Manager = require('./Lib/Manager.js');
+const Engineer = require('./Lib/Engineer.js');
+const Intern = require('./Lib/Intern.js');
 
 // TODO: Create an array of questions for user input
 const initial_questions = [
